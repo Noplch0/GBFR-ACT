@@ -4,6 +4,7 @@ import sys
 import threading
 import time
 import traceback
+from win10toast import ToastNotifier
 
 if __name__ == '__main__':
     _current_dir = os.path.dirname(__file__)
@@ -124,4 +125,5 @@ if __name__ == '__main__':
     except:
         traceback.print_exc()
     finally:
-        os.system('pause')
+        toaster=ToastNotifier()
+        toaster.show_toast("GBFR act启动成功","我错了哥😭😭😭\n别查我logs😭😭😭",icon_path='favicon.ico')

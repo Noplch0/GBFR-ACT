@@ -1,0 +1,1 @@
+@echo %cd%\act_ws.py
