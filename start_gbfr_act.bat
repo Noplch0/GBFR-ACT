@@ -5,5 +5,5 @@
 start steam://rungameid/881020
 
 cd /d "%~dp0"
-"%cd%\actenv\Scripts\python.exe" "%cd%\act_ws.py"
+"%cd%\python\python.exe" "%cd%\act_ws.py"
 start %cd%\GbfrAct.exe 
