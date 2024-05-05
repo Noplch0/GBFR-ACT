@@ -7,7 +7,7 @@
 
 
 ### 启动
-双击启动start_gbfr_act.bat
+以管理员身份启动start_gbfr_act.bat
 
 没了
 
